@@ -1,0 +1,16 @@
+ body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Georgia, serif;
+            font-size: 40px;
+            font-weight: bold;
+            color: white;
+            transition: background-color 0.5s ease; /* Smooth background change */
+        }
+        #text {
+            opacity: 0;
+            transition: opacity 1s ease-out; /* Fade out effect */
+        }
